@@ -1,6 +1,7 @@
 const timing = () => {
   const object = document.getElementById('button-order'); 
   object.textContent = 'Objednat';
+  object.disabled = false;
 };
 
 setTimeout(timing, 3000);
